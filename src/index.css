@@ -1,0 +1,1223 @@
+ /* .frame-header {
+     height: 50px;
+     background-color: #b2c0ab;
+ }
+
+ .frame-danhmuc {
+     height: 450px;
+     border: 1px solid gray;
+ }
+ 
+
+ .banner {
+     height: 450%;
+ }
+
+ .banner img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .cch {
+     line-height: 50px;
+ }
+
+ footer {
+     width: 100%;
+     height: 250px;
+     background-color: #b2c0ab;
+     color: #000000;
+     text-align: center;
+     font-size: 14px;
+     padding: 10px 0;
+     font-weight: 500;
+
+ }
+
+ footer iframe {
+     width: 100%;
+     height: 200px;
+     border: 0;
+ }
+
+ ul li {
+     cursor: pointer;
+ }
+
+ #login {
+     width: 400px;
+     height: 250px;
+     background-color: #e3ebdf;
+     position: absolute;
+     top: 10%;
+     left: calc(50% - 200px);
+     z-index: 10;
+     border-radius: 6px;
+ }
+
+ .close {
+     position: absolute;
+     top: 5px;
+     right: 10px;
+     cursor: pointer;
+     font-weight: bold;
+     color: rgb(0, 0, 0);
+ }
+
+ .detail {
+     border: 1px solid gray;
+     height: 400px;
+ }
+
+ .fr-detail {
+     width: 100px;
+     height: 100px;
+     border: 1px solid gray;
+ }
+
+ .fr-detail img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .about-candy {
+    padding: 40px;
+    text-align: center;
+}
+
+.about-highlight {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.highlight-box {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.customer-review {
+    padding: 40px;
+    text-align: center;
+}
+
+.review-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review-card {
+    width: 250px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.review-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#login {
+        display: none;
+        width: 400px;
+        height: 250px;
+        background-color: #e3ebdf;
+        position: absolute;
+        top: 10%;
+        left: calc(50% - 200px);
+        z-index: 10;
+        border-radius: 6px;
+    }
+
+    .close {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+    .cch {
+        line-height: 50px;
+    }
+
+    .frame-header {
+        flex: 1;
+        height: 50px;
+        text-align: center;
+        background-color: #91a790;
+        color: #ffffff
+    }
+
+    .about-candy {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .about-highlight {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .highlight-box {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .customer-review {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .review-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .review-card {
+        width: 250px;
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .review-info img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+     #login {
+        display: none;
+        width: 400px;
+        height: 250px;
+        background-color: #e3ebdf;
+        position: absolute;
+        top: 10%;
+        left: calc(50% - 200px);
+        z-index: 10;
+        border-radius: 6px;
+    }
+
+    .close {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+    .cch {
+        line-height: 50px;
+    }
+
+    .frame-header {
+        flex: 1;
+        height: 50px;
+        text-align: center;
+        background-color: #91a790;
+        color: #ffffff
+    }
+
+    .about-candy {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .about-highlight {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .highlight-box {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .customer-review {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .review-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .review-card {
+        width: 250px;
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .review-info img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    footer {
+        background-color: #a2afa2;
+        padding: 40px 0;
+        margin-top: 50px;
+        border-top: 5px solid #758374;
+        color: #ffffff
+    }
+
+    footer iframe {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        border: none;
+    }
+
+
+    .navbar {
+        padding: 10px 0;
+    }
+
+    .navbar .nav-link {
+        color: black !important;
+        font-weight: 600;
+        margin-right: 15px;
+    }
+
+    .navbar .nav-link:hover {
+        color: #28a745 !important;
+    }
+
+    .navbar-brand {
+        color: black !important;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+    }
+    
+
+
+   */
+
+
+
+
+      
+        body {
+            background-color: #fdfbff;
+            font-family: 'Itim', cursive !important;
+            color: #555;
+        }
+
+
+        .frame-header {
+            background: #ff8fab;
+            border: none;
+            color: white;
+            padding: 8px 0;
+        }
+
+        #btn-login {
+            background: #a2d2ff;
+            border: none;
+            border-radius: 50px;
+            font-weight: bold;
+            color: #444;
+        }
+
+
+        #login {
+            width: 100%;
+            max-width: 450px;
+            background-color: #fff;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10001;
+            border-radius: 25px;
+            padding: 30px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+            font-family: 'Itim', cursive !important;
+        }
+
+
+        #login input {
+            width: 100%;
+            padding: 12px 20px;
+            margin-top: 5px;
+            border: 2px solid #f0f7ff;
+            border-radius: 15px;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        #login input:focus {
+            border-color: #a2d2ff;
+            box-shadow: 0 0 8px rgba(162, 210, 255, 0.4);
+        }
+
+
+        #login label {
+            color: #555;
+            font-size: 0.95rem;
+            margin-left: 5px;
+        }
+
+
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 10000;
+        }
+
+
+        .navbar {
+            background: white !important;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0 5px 20px rgba(162, 210, 255, 0.15);
+            margin-bottom: 20px;
+        }
+
+        .navbar-brand {
+            font-size: 1.8rem;
+            color: #ff8fab !important;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            color: #555 !important;
+            font-weight: 600;
+        }
+
+        .nav-link:hover {
+            color: #ff8fab !important;
+        }
+
+        .frame-danhmuc {
+            background: white;
+            border: none !important;
+            border-radius: 25px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+        }
+
+        .frame-danhmuc h3 {
+            background: #ff8fab;
+            color: white;
+            padding: 10px;
+            border-radius: 15px;
+            text-align: center;
+            border: none;
+            font-size: 1.3rem;
+        }
+
+
+        .frame-danhmuc ul {
+            list-style: none !important;
+            padding: 0 !important;
+            margin: 15px 0 0 0 !important;
+        }
+
+        .frame-danhmuc ul li {
+            list-style: none !important;
+            background: #f0f7ff;
+            margin-bottom: 10px;
+            padding: 12px 20px;
+            border-radius: 20px;
+            color: #444;
+            font-weight: bold;
+            transition: 0.3s;
+            display: block;
+            border-left: 5px solid #a2d2ff;
+        }
+
+        .frame-danhmuc ul li:hover {
+            background: #a2d2ff;
+            color: white;
+            transform: translateX(10px);
+        }
+
+
+        .banner,
+        .carousel,
+        .carousel-inner,
+        .carousel-item img {
+            border-radius: 0 !important;
+            height: 400px;
+            object-fit: cover;
+            border: none !important;
+        }
+
+
+        .card {
+            border: none !important;
+            border-radius: 25px;
+            background: white;
+            padding: 10px;
+
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+
+        .card:hover {
+
+            transform: translateY(-5px);
+
+            box-shadow: 0 10px 30px rgba(255, 143, 171, 0.2);
+        }
+
+        .card-title {
+            color: #ff8fab;
+        }
+
+        .btn-success {
+            background: #a2d2ff !important;
+            border: none !important;
+            border-radius: 50px !important;
+            font-weight: bold;
+            color: #444 !important;
+        }
+
+        .btn-success:hover {
+            background: #ff8fab !important;
+            color: white !important;
+        }
+
+
+        footer {
+            background-color: #a2d2ff;
+            color: #444;
+            border: none;
+
+
+            border-radius: 0 !important;
+
+            padding: 60px 0 30px;
+            margin-top: 50px;
+            font-family: 'Itim', cursive !important;
+        }
+
+        footer h3 {
+            color: #ff8fab;
+            font-weight: bold;
+            font-size: 1.8rem;
+            text-shadow: 1px 1px 0px white;
+            margin-bottom: 20px;
+        }
+
+        footer p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+
+        footer iframe {
+
+            border-radius: 0 !important;
+
+
+            border: 5px solid #ffffff !important;
+
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+
+        footer a {
+            color: #ff8fab;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+    
+
+
+
+
+
+        
+    
+        body {
+            background-color: #fdfbff;
+            font-family: 'Itim', cursive !important;
+            color: #555;
+        }
+
+        .frame-header {
+            background: #ff8fab;
+            color: white;
+            padding: 10px 0;
+        }
+
+        #btn-login {
+            background: #a2d2ff !important;
+            border: none;
+            border-radius: 50px;
+            font-weight: bold;
+            color: #444 !important;
+            padding: 5px 20px;
+        }
+
+        .navbar {
+            background: white !important;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0 5px 20px rgba(162, 210, 255, 0.15);
+            margin-bottom: 20px;
+        }
+
+        .navbar-brand {
+            font-size: 1.8rem;
+            color: #ff8fab !important;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            color: #555 !important;
+            font-weight: 600;
+        }
+
+        .nav-link:hover {
+            color: #ff8fab !important;
+        }
+
+        /* Nút tìm kiếm và các nút chung */
+        .btn-candy {
+            background-color: #ff8fab !important;
+            color: white !important;
+            border: none !important;
+            border-radius: 50px !important;
+        }
+
+        .section-title {
+            color: #ff8fab;
+            border-left: 5px solid #a2d2ff;
+            padding-left: 15px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .news-card {
+            border-radius: 30px;
+            overflow: hidden;
+            border: none !important;
+            box-shadow: 0 10px 30px rgba(162, 210, 255, 0.15);
+            transition: 0.3s;
+            margin-bottom: 25px;
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(255, 143, 171, 0.2);
+        }
+
+        .badge-custom {
+            background-color: #ff8fab;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+        }
+
+        .frame-danhmuc {
+            background: white;
+            border-radius: 25px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(255, 143, 171, 0.1);
+            margin-bottom: 25px;
+        }
+
+        .frame-danhmuc h3 {
+            color: #ff8fab;
+            font-size: 1.3rem;
+            border-bottom: 2px dashed #a2d2ff;
+            padding-bottom: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .frame-danhmuc ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .frame-danhmuc li {
+            padding: 10px;
+            border-bottom: 1px solid #fff0f5;
+            transition: 0.3s;
+        }
+
+        .frame-danhmuc li:hover {
+            background: #fff0f5;
+            padding-left: 20px;
+            border-radius: 15px;
+            color: #ff8fab;
+        }
+
+        .top-news-item img {
+            width: 60px;
+            height: 60px;
+            border-radius: 15px;
+            object-fit: cover;
+            border: 2px solid #a2d2ff;
+        }
+
+        .page-link {
+            color: #ff8fab !important;
+            border: none !important;
+            border-radius: 10px !important;
+            margin: 0 3px;
+        }
+
+        .page-item.active .page-link {
+            background-color: #ff8fab !important;
+            color: white !important;
+        }
+
+        footer {
+            background-color: #a2d2ff;
+            color: #444;
+            border: none;
+
+
+            border-radius: 0 !important;
+
+            padding: 60px 0 30px;
+            margin-top: 50px;
+            font-family: 'Itim', cursive !important;
+        }
+
+        footer h3 {
+            color: #ff8fab;
+            font-weight: bold;
+            font-size: 1.8rem;
+            text-shadow: 1px 1px 0px white;
+            margin-bottom: 20px;
+        }
+
+        footer p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+
+        footer iframe {
+
+            border-radius: 0 !important;
+
+
+            border: 5px solid #ffffff !important;
+
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+
+        footer a {
+            color: #ff8fab;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+    
+
+             body {
+            background-color: #fdfbff;
+            font-family: 'Itim', cursive !important;
+            color: #555;
+        }
+
+        .frame-header {
+            background: #ff8fab;
+            color: white;
+            padding: 10px 0;
+            margin: 0;
+        }
+
+        #btn-login {
+            background: #a2d2ff;
+            border: none;
+            border-radius: 50px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        #login {
+            display: none;
+            width: 100%;
+            max-width: 400px;
+            background-color: #fff;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10001;
+            border-radius: 25px;
+            padding: 30px !important;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            cursor: pointer;
+            font-size: 25px;
+            color: #ff8fab;
+        }
+
+        .navbar {
+            background: white !important;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0 5px 20px rgba(162, 210, 255, 0.15);
+            margin-bottom: 20px;
+        }
+
+        .navbar-brand {
+            font-size: 1.8rem;
+            color: #ff8fab !important;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            color: #555 !important;
+            font-weight: 600;
+        }
+
+        .nav-link:hover {
+            color: #ff8fab !important;
+        }
+
+        .about-highlight {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .highlight-box {
+            background: #ffffff;
+            padding: 15px 25px;
+            border-radius: 20px;
+            border: 2px dashed #a2d2ff;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .highlight-box:hover {
+            background: #a2d2ff;
+            color: white;
+            transform: translateY(-5px);
+        }
+
+        .review-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .review-card {
+            width: 280px;
+            background: white;
+            border-radius: 25px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(255, 143, 171, 0.1);
+            text-align: center;
+        }
+
+        .review-info img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid #ff8fab;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #a2d2ff;
+            color: #444;
+            border: none;
+
+
+            border-radius: 0 !important;
+
+            padding: 60px 0 30px;
+            margin-top: 50px;
+            font-family: 'Itim', cursive !important;
+        }
+
+        footer h3 {
+            color: #ff8fab;
+            font-weight: bold;
+            font-size: 1.8rem;
+            text-shadow: 1px 1px 0px white;
+            margin-bottom: 20px;
+        }
+
+        footer p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+
+        footer iframe {
+
+            border-radius: 0 !important;
+
+
+            border: 5px solid #ffffff !important;
+
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+
+        footer a {
+            color: #ff8fab;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+
+
+        
+        /* 1. RESET & CHUNG - Giữ font Itim và tone hồng chủ đạo */
+        body {
+            background-color: #fdfbff;
+            font-family: 'Itim', cursive !important;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* 2. HEADER & NAVIGATION */
+        header {
+            background: #fff0f3;
+            border-bottom: 2px solid #ff8fab;
+        }
+
+        .navbar {
+            background: white !important;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0 8px 25px rgba(255, 143, 171, 0.1);
+            margin-bottom: 30px;
+            border: none !important;
+            padding: 15px 0;
+        }
+
+        .navbar-brand {
+            font-size: 2rem;
+            color: #ff8fab !important;
+            text-shadow: 1px 1px 0px #ffe5ec;
+        }
+
+        .nav-link {
+            color: #666 !important;
+            font-size: 1.1rem;
+            margin: 0 12px;
+            transition: 0.3s;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: #ff8fab !important;
+            transform: scale(1.1);
+        }
+
+        /* 3. BẢNG GIỎ HÀNG */
+        .section-title {
+            color: #ff8fab;
+            font-weight: bold;
+            margin: 40px 0 25px;
+            padding-bottom: 10px;
+            border-bottom: 3px dotted #ffb6c1;
+            display: block;
+            text-align: center;
+        }
+
+        .table-responsive {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .table thead {
+            background-color: #ff8fab;
+            color: white;
+        }
+
+        /* 4. CARD SẢN PHẨM */
+        .card {
+            border: 2px solid #fff5f8 !important;
+            border-radius: 25px;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(255, 143, 171, 0.25);
+            border-color: #ff8fab !important;
+        }
+
+        /* 5. PHẦN QUAN TRỌNG: ĐĂNG NHẬP & THANH TOÁN (Giữ nguyên cấu trúc của bạn) */
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 10000;
+            backdrop-filter: blur(4px);
+        }
+
+        #login,
+        #checkout-popup {
+            display: none;
+            width: 90%;
+            max-width: 420px;
+            background-color: #fff;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10001;
+            border-radius: 30px;
+            /* Làm tròn theo style mới */
+            padding: 30px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+            border: 5px solid #ffc2d1;
+            /* Viền theo yêu cầu mới của bạn */
+        }
+
+        .close,
+        .close-checkout {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: #ff8fab;
+            transition: 0.3s;
+        }
+
+        /* 6. NÚT BẤM (Gộp style gradient kẹo ngọt) */
+        .btn-success {
+            background: linear-gradient(45deg, #ff8fab, #ffb6c1) !important;
+            border: none !important;
+            border-radius: 50px !important;
+            padding: 10px 25px;
+            box-shadow: 0 4px 15px rgba(255, 143, 171, 0.3);
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .btn-success:hover {
+            background: linear-gradient(45deg, #ffb6c1, #ff8fab) !important;
+            transform: scale(1.05);
+        }
+
+        .btn-primary {
+            background: #a2d2ff !important;
+            border: none !important;
+            border-radius: 50px !important;
+            padding: 12px 35px;
+            font-weight: bold;
+            color: #444 !important;
+        }
+
+        /* 7. FOOTER */
+        footer {
+            background-color: #a2d2ff;
+            color: #444;
+            border: none;
+
+
+            border-radius: 0 !important;
+
+            padding: 60px 0 30px;
+            margin-top: 50px;
+            font-family: 'Itim', cursive !important;
+        }
+
+        footer h3 {
+            color: #ff8fab;
+            font-weight: bold;
+            font-size: 1.8rem;
+            text-shadow: 1px 1px 0px white;
+            margin-bottom: 20px;
+        }
+
+        footer p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+
+        footer iframe {
+
+            border-radius: 0 !important;
+
+
+            border: 5px solid #ffffff !important;
+
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+
+        footer a {
+            color: #ff8fab;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+
+        .commitment-icon {
+            font-size: 2rem;
+            color: #ff8fab;
+            margin-bottom: 10px;
+            display: block;
+        }
+    
+
+    .navbar {
+        background: white !important;
+        border-radius: 0 0 30px 30px;
+        box-shadow: 0 5px 20px rgba(162, 210, 255, 0.15);
+        margin-bottom: 20px;
+    }
+
+    .navbar-brand {
+        font-size: 1.8rem;
+        color: #ff8fab !important;
+        font-weight: bold;
+    }
+
+    .nav-link {
+        color: #555 !important;
+        font-weight: 600;
+    }
+
+    .nav-link:hover {
+        color: #ff8fab !important;
+    }
+
+    /* Tinh chỉnh riêng cho trang chi tiết */
+    .detail {
+        background: white;
+        border: none !important;
+        border-radius: 30px;
+        box-shadow: 0 10px 25px rgba(255, 143, 171, 0.1);
+        overflow: hidden;
+    }
+
+    #hienthi {
+        border-radius: 20px;
+        transition: 0.3s;
+        object-fit: contain;
+        background: #fff;
+    }
+
+    /* Khung ảnh nhỏ bên dưới */
+    .fr-detail {
+        width: 80px;
+        height: 80px;
+        margin: 10px 5px;
+        cursor: pointer;
+        border: 2px solid #f0f7ff;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .fr-detail:hover {
+        border-color: #ff8fab;
+        transform: scale(1.05);
+    }
+
+    .fr-detail img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Tinh chỉnh các ô input số lượng */
+    input[type="number"] {
+        border: 2px solid #f0f7ff;
+        border-radius: 50px;
+        padding: 5px 15px;
+        text-align: center;
+        color: #555;
+    }
+
+    input[type="number"]:focus {
+        border-color: #a2d2ff;
+        outline: none;
+    }
+
+    /* Nút yêu thích */
+    .btn-outline-danger {
+        border: 2px solid #ff8fab !important;
+        color: #ff8fab !important;
+        border-radius: 50px !important;
+        font-weight: bold;
+    }
+
+    .btn-outline-danger:hover {
+        background: #ff8fab !important;
+        color: white !important;
+    }
+
+    /* Phần thông số chi tiết */
+    .product-info-box {
+        background: #fff;
+        border-radius: 25px;
+        padding: 30px;
+        margin-top: 30px;
+        border: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+    }
+
+    .product-info-box h3,
+    .product-info-box h4 {
+        color: #ff8fab;
+        font-weight: bold;
+    }

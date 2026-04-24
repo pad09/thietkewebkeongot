@@ -1,0 +1,521 @@
+/* --- 1. SETUP CHUNG --- */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    background-color: #fdfbff;
+    font-family: 'Itim', cursive !important;
+    color: #555;
+    overflow-x: hidden;
+}
+
+/* --- 2. HEADER & NAVIGATION --- */
+.frame-header {
+    background: #ff8fab;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    background: white !important;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 5px 20px rgba(162, 210, 255, 0.15);
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #ff8fab !important;
+    font-weight: bold;
+}
+
+/* --- 3. LAYOUT CHÍNH (DANH MỤC & BANNER) --- */
+.frame-danhmuc {
+
+    background: white;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(255, 143, 171, 0.1);
+    border: none !important;
+}
+
+.frame-danhmuc h3 {
+    background: #ff8fab;
+    color: white;
+    padding: 12px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.list-menu {
+    list-style: none !important;
+    padding: 0 !important;
+}
+
+.list-menu ul {
+    list-style: none !important;
+    padding-left: 15px !important;
+    margin-top: 10px;
+}
+
+.list-menu ul li {
+    background: #f0f7ff;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border-left: 5px solid #a2d2ff;
+    /* Màu Mint */
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.list-menu ul li:hover {
+    background: #a2d2ff;
+    color: white;
+    transform: translateX(8px);
+}
+
+/* Banner Slider */
+.img-banner {
+    height: 480px;
+    /* Điều chỉnh chiều cao cho khớp với danh mục */
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.carousel {
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* --- 4. POPUP LOGIN & GIỎ HÀNG --- */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 10000;
+    backdrop-filter: blur(3px);
+}
+
+#login {
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10001;
+    border-radius: 30px;
+    padding: 35px;
+    border: 5px solid #ffc2d1;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* ===== IMAGE ===== */
+.img-box {
+    border-radius: 25px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.main-img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+.main-img:hover {
+    transform: scale(1.1);
+}
+
+/* ===== THUMB ===== */
+.thumb {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.thumb:hover {
+    transform: scale(1.1);
+    border: 2px solid #ff4d6d;
+}
+
+.active-thumb {
+    border: 2px solid #ff4d6d;
+}
+
+/* ===== INFO ===== */
+.info-box {
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== TEXT ===== */
+.price {
+    color: #ff1744;
+    font-weight: bold;
+}
+
+.rating {
+    color: orange;
+}
+
+.desc {
+    color: #666;
+}
+
+/* ===== QUANTITY ===== */
+.qty-btn {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background: #eee;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.qty-input {
+    width: 60px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+/* ===== BUTTON ===== */
+.buy-btn {
+    background: #ff4d6d;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background: #ff1744;
+    transform: scale(1.05);
+}
+
+.fav-btn {
+    border: 2px solid #ff4d6d;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: #ff4d6d;
+    background: white;
+}
+
+.fav-btn:hover {
+    background: #ff4d6d;
+    color: white;
+}
+
+/* ===== EXTRA ===== */
+.extra p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* ===== DESCRIPTION ===== */
+.detail-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== RELATED ===== */
+.product-card {
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.product-card button {
+    border-radius: 20px;
+}
+
+.img-box {
+    border-radius: 25px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.main-img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    transition: 0.4s;
+}
+
+.main-img:hover {
+    transform: scale(1.1);
+}
+
+.thumb {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.thumb:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.active-thumb {
+    border: 2px solid red;
+    opacity: 1;
+}
+
+.info-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.price {
+    color: red;
+}
+
+.qty-btn {
+    width: 35px;
+    height: 35px;
+}
+
+.qty-input {
+    width: 60px;
+    text-align: center;
+}
+
+.buy-btn {
+    background: red;
+    color: white;
+}
+
+.fav-btn {
+    border: 2px solid red;
+}
+
+.active-fav {
+    background: red;
+    color: white;
+}
+
+.product-card {
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+/* ===== CHI TIẾT MƯỢT ===== */
+.chitiet-box {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+    background: #fff;
+    padding: 0 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.chitiet-box.show {
+    max-height: 200px;
+    opacity: 1;
+    transform: translateY(0);
+    padding: 15px;
+}
+
+/* ===== NÚT GIỮA ===== */
+.btn-detail {
+    padding: 10px 35px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-detail:hover {
+    transform: scale(1.05);
+}
+
+/* ===== ABOUT BOX ===== */
+.about-candy {
+    background: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== REVIEW ===== */
+.review-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+}
+
+.review-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.review-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* ===== GENZ FOOTER ===== */
+.footer {
+    background: #a2d2ff;
+    color: #333;
+}
+
+/* TITLE GENZ */
+.footer-title {
+    font-size: 28px;
+    font-weight: 900;
+    color: #ff4d6d;
+    letter-spacing: 1px;
+}
+
+/* TEXT */
+.footer-text {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* SOCIAL */
+.social {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.social span {
+    background: white;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social span:hover {
+    background: #ff4d6d;
+    color: white;
+    transform: scale(1.1) rotate(-2deg);
+}
+
+/* MAP */
+.map-box iframe {
+    width: 100%;
+    height: 220px;
+    border-radius: 15px;
+    border: none;
+}
+
+/* SUBSCRIBE */
+.subscribe-box {
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.subscribe-box input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.subscribe-box button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background: #ff4d6d;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.subscribe-box button:hover {
+    background: #ff1744;
+    transform: scale(1.05);
+}
+
+/* BOTTOM */
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* SMALL EFFECT */
+.footer-title-sm {
+    color: #ff4d6d;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.map-box iframe {
+    width: 100%;
+    height: 220px;
+    border: none;
+    border-radius: 15px;
+}
