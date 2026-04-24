@@ -88,7 +88,7 @@ export default function Tintuc() {
 
                     {/* CATEGORY */}
                     <div className="frame-danhmuc">
-                        <h3 className="text-light">DANH MỤC TIN</h3>
+                        <h3 className="text-light">DANH MỤC TIN TỨC</h3>
                         <ul>
                             <li>🍬 Kiến thức về kẹo</li>
                             <li>⭐ Review sản phẩm</li>
