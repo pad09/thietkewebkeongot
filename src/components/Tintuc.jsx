@@ -88,7 +88,7 @@ export default function Tintuc() {
 
                     {/* CATEGORY */}
                     <div className="frame-danhmuc">
-                        <h3>DANH MỤC TIN</h3>
+                        <h3 className="text-light">DANH MỤC TIN</h3>
                         <ul>
                             <li>🍬 Kiến thức về kẹo</li>
                             <li>⭐ Review sản phẩm</li>
@@ -99,7 +99,7 @@ export default function Tintuc() {
 
                     {/* POPULAR */}
                     <div className="frame-danhmuc">
-                        <h3>TIN XEM NHIỀU</h3>
+                        <h3 className="text-light">TIN XEM NHIỀU</h3>
 
                         <div className="d-flex align-items-center mb-3">
                             <img

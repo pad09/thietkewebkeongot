@@ -8,7 +8,7 @@ export default function Banner() {
                 {/* CỘT DANH MỤC (Bên trái) */}
                 <div className="col-md-3">
                     <div className="frame-danhmuc">
-                        <h3>DANH MỤC</h3>
+                        <h3 className="text-light">DANH MỤC</h3>
                         <ul className="list-menu">
                             <li>
                                 <strong>Kẹo Cứng</strong>
