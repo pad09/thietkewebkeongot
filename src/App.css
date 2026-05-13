@@ -545,17 +545,17 @@ body {
 }
 /* Ép chữ trang Tin tức luôn hiển thị */
 .news-card * {
-    color: #ffffff !important;
+    color: #333 !important;
 }
 
 .badge-custom {
-    color: #ffffff !important;
+    color: #fff !important;
 }
 
 .frame-danhmuc * {
-    color: #ffffff !important;
+    color: #333 !important;
 }
 
 .section-title {
-    color: #ffffff !important;
+    color: #333 !important;
 }
