@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="footer-contact">
               <p>📍 TP.HCM</p>
               <p>📞 0123 456 789</p>
-              <p>📧 candyvibes@gmail.com</p>
+              <p>📧 keongot@gmail.com</p>
             </div>
 
             <div className="social">

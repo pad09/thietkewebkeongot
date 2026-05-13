@@ -3,7 +3,7 @@ import Gioithieu from "../components/Gioithieu";
 import ShowSPKM, { ShowSPBC, ShowSPH } from "../components/ShowProduct";
 import Test from "../components/Test";
 import Test from "../components/Detail";
-
+import ConnectAPI from "./Components/ConnetAPI.jsx"; 
 
 
 export default function index() {
@@ -17,6 +17,7 @@ export default function index() {
             <ShowSPBC></ShowSPBC>
             <ShowSPH></ShowSPH>
             <Test></Test>
+            <ConnectAPI /> 
         </>
     )
 }

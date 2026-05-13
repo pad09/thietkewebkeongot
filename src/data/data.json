@@ -1,0 +1,60 @@
+{
+  "sanpham": [
+    {
+      "id": 1,
+      "tensp": "Kẹo Gấu Gummy",
+      "gia": 25000,
+      "hinh": "sp1.jpg",
+      "mota": "spkm"
+    },
+    {
+      "id": 2,
+      "tensp": "Kẹo Dẻo Trái Cây",
+      "gia": 30000,
+      "hinh": "sp2.jpg",
+      "mota": "spkm"
+    },
+    {
+      "id": 3,
+      "tensp": "Kẹo Marshmallow",
+      "gia": 28000,
+      "hinh": "sp3.jpg",
+      "mota": "spbc"
+    },
+    {
+      "id": 4,
+      "tensp": "Kẹo Socola Hạnh Nhân",
+      "gia": 45000,
+      "hinh": "sp4.jpg",
+      "mota": "spbc"
+    },
+    {
+      "id": 5,
+      "tensp": "Kẹo Mút Cầu Vồng",
+      "gia": 15000,
+      "hinh": "sp5.jpg",
+      "mota": "sphot"
+    },
+    {
+      "id": 6,
+      "tensp": "Thạch Trái Cây",
+      "gia": 22000,
+      "hinh": "sp6.jpg",
+      "mota": "sphot"
+    },
+    {
+      "id": 7,
+      "tensp": "Kẹo Bạc Hà",
+      "gia": 18000,
+      "hinh": "sp7.jpg",
+      "mota": "spbc"
+    },
+    {
+      "id": 8,
+      "tensp": "Kẹo Caramel",
+      "gia": 26000,
+      "hinh": "sp8.jpg",
+      "mota": "spkm"
+    }
+  ]
+}

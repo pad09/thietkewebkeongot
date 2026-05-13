@@ -1,8 +1,8 @@
 
 
-import Banner from "./Banner";
+import Banner from "./Banner.jsx";
 import ShowSPKM, { ShowSPBC, ShowSPH } from "./ShowProduct";
-
+import ConnectAPI from "./ConnectAPI.jsx"; 
 
 export default function index() {
 
@@ -14,6 +14,7 @@ export default function index() {
             <ShowSPKM />
             <ShowSPBC />
             <ShowSPH />
+            <ConnectAPI /> 
 
         </>
     );

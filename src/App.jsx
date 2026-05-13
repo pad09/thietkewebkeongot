@@ -8,7 +8,10 @@ import ShowProduct from "./components/ShowProduct";
 import Login from "./components/Login";
 import Gioithieu from "./pages/Gioithieu";
 import Tintuc from "./components/Tintuc";
+import Lienhe from "./pages/Lienhe";
 import Detail from "./pages/Detail";
+import SanPham from "./pages/SanPham";
+
 
 
 
@@ -29,9 +32,11 @@ export default function App() {
        
         <Route path="/index" element={<Index />} />
         <Route path="/gioithieu" element={<Gioithieu />} />
-        <Route path="/lienhe" element={<h1>Contact</h1>} />
-        <Route path="/sanpham" element={<ShowProduct />} />
-         <Route path="/Tintuc" element={<Tintuc />} /> 
+        {/* <Route path="/lienhe" element={<h1>Contact</h1>} /> */}
+        <Route path="/sanpham" element={<SanPham />} />
+        <Route path="/Tintuc" element={<Tintuc />} /> 
+        <Route path="/lienhe" element={<Lienhe />} />
+         {/* <Route path="/Lienhe" element={<Lienhe />} />  */}
         <Route path="/detail/:id" element={<Detail />} />
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
