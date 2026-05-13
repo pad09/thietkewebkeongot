@@ -41,7 +41,9 @@ body {
 
 .frame-danhmuc h3 {
     background: #ff8fab;
-    color: white;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    opacity: 1 !important;
     padding: 12px;
     border-radius: 15px;
     text-align: center;

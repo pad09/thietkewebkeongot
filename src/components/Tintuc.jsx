@@ -126,7 +126,7 @@ export default function Tintuc() {
                     {/* CATEGORY */}
                     <div className="frame-danhmuc">
 
-                        <h3>DANH MỤC TIN TỨC</h3>
+                        <h3 class="text-light" >DANH MỤC TIN TỨC</h3>
 
                         <ul>
                             <li>
@@ -154,7 +154,7 @@ export default function Tintuc() {
                     {/* POPULAR */}
                     <div className="frame-danhmuc">
 
-                        <h3>TIN XEM NHIỀU</h3>
+                        <h3 class="text-light">TIN XEM NHIỀU</h3>
 
                         <div className="d-flex align-items-center mb-3">
                             <img
