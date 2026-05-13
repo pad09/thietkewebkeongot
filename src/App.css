@@ -519,3 +519,17 @@ body {
     border: none;
     border-radius: 15px;
 }
+.section-title,
+.news-card h4,
+.news-card p,
+.frame-danhmuc,
+.frame-danhmuc li,
+.frame-danhmuc a,
+.pagination .page-link {
+    color: #333 !important;
+}
+
+.badge-custom {
+    background: #ff8fab;
+    color: #fff !important;
+}
