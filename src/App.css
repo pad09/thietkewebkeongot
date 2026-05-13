@@ -519,17 +519,43 @@ body {
     border: none;
     border-radius: 15px;
 }
+/* ===== FIX CHỮ TRANG TIN TỨC ===== */
 .section-title,
 .news-card h4,
 .news-card p,
+.news-card span,
 .frame-danhmuc,
 .frame-danhmuc li,
 .frame-danhmuc a,
+.frame-danhmuc p,
 .pagination .page-link {
     color: #333 !important;
 }
 
 .badge-custom {
     background: #ff8fab;
+    color: #ffffff !important;
+}
+
+.news-card {
+    background: #ffffff;
+    border-radius: 25px;
+    overflow: hidden;
+    border: none;
+}
+/* Ép chữ trang Tin tức luôn hiển thị */
+.news-card * {
+    color: #333 !important;
+}
+
+.badge-custom {
     color: #fff !important;
+}
+
+.frame-danhmuc * {
+    color: #333 !important;
+}
+
+.section-title {
+    color: #333 !important;
 }
