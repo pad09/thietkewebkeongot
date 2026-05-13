@@ -31,7 +31,7 @@ export default function SanPhamjson() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/sanpham")
+      .get("https://fakestoreapi.com/products")
       .then((res) => {
         setSanPham(res.data);
       })
