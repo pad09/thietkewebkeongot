@@ -126,7 +126,7 @@ export default function Tintuc() {
                     {/* CATEGORY */}
                     <div className="frame-danhmuc">
 
-                        <h3>DANH MỤC TIN</h3>
+                        <h3>DANH MỤC TIN TỨC</h3>
 
                         <ul>
                             <li>

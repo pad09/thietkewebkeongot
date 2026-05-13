@@ -31,12 +31,12 @@ body {
 
 /* --- 3. LAYOUT CHÍNH (DANH MỤC & BANNER) --- */
 .frame-danhmuc {
-
     background: white;
     border-radius: 25px;
     padding: 25px;
     box-shadow: 0 10px 25px rgba(255, 143, 171, 0.1);
     border: none !important;
+    color: #333 !important;
 }
 
 .frame-danhmuc h3 {
@@ -520,7 +520,7 @@ body {
     border-radius: 15px;
 }
 /* ===== FIX CHỮ TRANG TIN TỨC ===== */
-.section-title,
+/* .section-title,
 .news-card h4,
 .news-card p,
 .news-card span,
@@ -544,7 +544,7 @@ body {
     border: none;
 }
 /* Ép chữ trang Tin tức luôn hiển thị */
-.news-card * {
+/* .news-card * {
     color: #333 !important;
 }
 
@@ -558,4 +558,4 @@ body {
 
 .section-title {
     color: #333 !important;
-}
+} */ 
