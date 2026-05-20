@@ -1,46 +1,30 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import Login from "./Login";
 
-export default function Header() {
-
-  const [showLogin, setShowLogin] = useState(false);
-
+// NHỚ NHẬN PROP openLogin TỪ APP TRUYỀN XUỐNG Ở ĐÂY NHA!
+export default function Header({ openLogin }) {
   return (
-
     <div>
-
-      {/* ===== LOGIN ===== */}
-      {showLogin && (
-        <Login closeLogin={() => setShowLogin(false)} />
-      )}
-
       {/* ===== HEADER TOP ===== */}
       <header className="container-fluid frame-header">
-
         <div className="container">
-
           <div className="row align-items-center">
-
             <div className="col-6 col-md-4">
               📞 HOTLINE: 0912345678
             </div>
 
             <div
               className="col-md-4 d-none d-md-block text-center"
-              style={{
-                fontSize: "1.1rem"
-              }}
+              style={{ fontSize: "1.1rem" }}
             >
               🍬 Thế Giới Kẹo Ngọt 🍬
             </div>
 
             <div className="col-6 col-md-4 text-end">
-
+              {/* NÚT ĐĂNG NHẬP CHUẨN XỊN */}
               <button
                 type="button"
                 className="btn"
-                onClick={() => setShowLogin(true)}
+                onClick={openLogin} // <-- Gọi thẳng công tắc của App.jsx ở đây!
                 style={{
                   background: "linear-gradient(to right,#ff8fab,#ffb3c6)",
                   color: "#fff",
@@ -55,30 +39,22 @@ export default function Header() {
                 <i className="fa-solid fa-user me-2"></i>
                 Đăng Nhập
               </button>
-
             </div>
-
           </div>
-
         </div>
-
       </header>
 
       {/* ===== NAVBAR ===== */}
       <div className="container">
-
         <nav
           className="navbar navbar-expand-sm mt-3 px-3"
           style={{
             background: "#fff",
             borderRadius: "0 0 30px 30px",
-            boxShadow:
-              "0 5px 20px rgba(162,210,255,0.15)"
+            boxShadow: "0 5px 20px rgba(162,210,255,0.15)"
           }}
         >
-
           <div className="container-fluid">
-
             <Link
               className="navbar-brand fw-bold"
               to="/"
@@ -100,102 +76,63 @@ export default function Header() {
               <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div
-              className="collapse navbar-collapse"
-              id="mynavbar"
-            >
-
+            <div className="collapse navbar-collapse" id="mynavbar">
               <ul className="navbar-nav me-auto">
-
                 <li className="nav-item">
-                  <Link className="nav-link" to="/">
-                    Trang Chủ
-                  </Link>
+                  <Link className="nav-link" to="/">Trang Chủ</Link>
                 </li>
-
                 <li className="nav-item">
-                  <Link className="nav-link" to="/gioithieu">
-                    Giới Thiệu
-                  </Link>
+                  <Link className="nav-link" to="/gioithieu">Giới Thiệu</Link>
                 </li>
-
                 <li className="nav-item">
-                  <Link className="nav-link" to="/sanpham">
-                    Sản Phẩm
-                  </Link>
+                  <Link className="nav-link" to="/sanpham">Sản Phẩm</Link>
                 </li>
-
                 <li className="nav-item">
-                  <Link className="nav-link" to="/tintuc">
-                    Tin Tức
-                  </Link>
+                  <Link className="nav-link" to="/tintuc">Tin Tức</Link>
                 </li>
-
                 <li className="nav-item">
-                  <Link className="nav-link" to="/lienhe">
-                    Liên Hệ
-                  </Link>
+                  <Link className="nav-link" to="/lienhe">Liên Hệ</Link>
                 </li>
-
+                <li className="nav-item">
+                  <Link className="nav-link" to="/khachhang">Khách Hàng</Link>
+                </li>
               </ul>
 
               {/* SEARCH */}
               <form className="d-flex">
-
                 <input
                   className="form-control me-2 rounded-pill border-info"
                   placeholder="Tìm kẹo ngon..."
                   type="text"
                 />
-
                 <button
                   type="button"
                   className="btn rounded-pill"
-                  style={{
-                    background: "#ff8fab",
-                    color: "white"
-                  }}
+                  style={{ background: "#ff8fab", color: "white" }}
                 >
                   Tìm
                 </button>
-
               </form>
 
               {/* CART */}
               <button
                 type="button"
                 className="btn ms-3 position-relative"
-                style={{
-                  color: "#ff8fab",
-                  border: "none"
-                }}
+                style={{ color: "#ff8fab", border: "none" }}
               >
-
                 <i className="fa-solid fa-cart-shopping fa-lg"></i>
-
-                <span className="d-none d-md-inline ms-2">
-                  Giỏ hàng
-                </span>
-
+                <span className="d-none d-md-inline ms-2">Giỏ hàng</span>
                 <span
                   className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                  style={{
-                    fontSize: "0.6rem"
-                  }}
+                  style={{ fontSize: "0.6rem" }}
                 >
                   3
                 </span>
-
               </button>
-
             </div>
-
           </div>
-
         </nav>
-
       </div>
-
     </div>
   );
 }
