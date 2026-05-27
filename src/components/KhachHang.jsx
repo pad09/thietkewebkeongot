@@ -55,7 +55,7 @@ export default function KhachHang() {
                 <hr style={{ borderTop: "1px dashed #ff8da1", margin: "5px 0 10px 0" }} />
 
                 <div className="small text-secondary">
-                  {/* Hiển thị ra màn hình */}
+                  {}
                   <p className="mb-1">📞 <strong>Số điện thoại:</strong> {user.sdth}</p>
                   <p className="mb-1">📧 <strong>Email:</strong> {user.email}</p>
                   <p className="mb-0">📍 <strong>Địa chỉ:</strong> {user.diachi}</p>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import sanpham from "../data/product";
+import AddToCart from "./AddToCart";
 
 const cardStyle = {
   border: "none",
@@ -79,6 +80,7 @@ export default function ShowSPKM() {
                 >
                   🛒 Mua Ngay
                 </Link>
+                <AddToCart product={sp}>Thêm vào  giỏ hàng</AddToCart>
               </div>
             </div>
           </div>

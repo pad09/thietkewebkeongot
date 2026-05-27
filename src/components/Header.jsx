@@ -115,20 +115,18 @@ export default function Header({ openLogin }) {
               </form>
 
               {/* CART */}
-              <button
-                type="button"
-                className="btn ms-3 position-relative"
-                style={{ color: "#ff8fab", border: "none" }}
+              {/* CART */}
+              <Link
+                to="/giohang"
+                className="btn ms-3 d-flex align-items-center"
+                style={{
+                  color: "#ff8fab",
+                  border: "none",
+                  textDecoration: "none"
+                }}
               >
                 <i className="fa-solid fa-cart-shopping fa-lg"></i>
-                <span className="d-none d-md-inline ms-2">Giỏ hàng</span>
-                <span
-                  className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                  style={{ fontSize: "0.6rem" }}
-                >
-                  3
-                </span>
-              </button>
+              </Link>
             </div>
           </div>
         </nav>
