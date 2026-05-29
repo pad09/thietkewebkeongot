@@ -18,8 +18,8 @@ export default function Banner() {
                                     <li>Kẹo Trái Cây</li>
                                 </ul> */}
                             </li>
-                              <li className="mt-3 ps-3"><strong>Kẹo Socol</strong></li>
-                            <li className="mt-3 ps-3"><strong>Kẹo Socol</strong></li>
+                              <li className="mt-3 ps-3"><strong>Kẹo Socola</strong></li>
+                            <li className="mt-3 ps-3"><strong>Kẹo Mềm</strong></li>
                             <li className="mt-2 ps-3"><strong>Thạch Trái Cây</strong></li>
                         </ul>
                     </div>
