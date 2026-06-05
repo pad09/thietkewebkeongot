@@ -8,7 +8,7 @@ import ShowProduct from "./components/ShowProduct";
 import Login from "./components/Login";
 import Gioithieu from "./pages/Gioithieu";
 import Tintuc from "./components/Tintuc";
-import Lienhe from "./pages/Lienhe";
+import LienHe from "./components/LienHe";
 import Detail from "./pages/Detail";
 import SanPham from "./pages/SanPham";
 import KhachHang from "./components/KhachHang";
@@ -32,7 +32,7 @@ export default function App() {
         <Route path="/gioithieu" element={<Gioithieu />} />
         <Route path="/sanpham" element={<SanPham />} />
         <Route path="/Tintuc" element={<Tintuc />} /> 
-        <Route path="/lienhe" element={<Lienhe />} />
+        <Route path="/lienhe" element={<LienHe />} />
         <Route path="/detail/:id" element={<Detail />} />
         <Route path="/khachhang" element={<KhachHang />} />
         <Route path="/giohang" element={<GioHang />} />

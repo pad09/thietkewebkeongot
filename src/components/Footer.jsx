@@ -16,7 +16,7 @@ export default function Footer() {
 
             <div className="footer-contact">
               <p>📍 TP.HCM</p>
-              <p>📞 0123 456 789</p>
+              <p>📞 091 234 5678</p>
               <p>📧 keongot@gmail.com</p>
             </div>
 
@@ -64,7 +64,7 @@ export default function Footer() {
         <hr />
 
         <p className="footer-bottom">
-          Made with 💖 | © 2026 Thế Giới Kẹo Ngọt - Ăn là nghiện 😭🍬
+           © 2026 Thế Giới Kẹo Ngọt - Ăn là nghiện 😭🍬
         </p>
 
       </div>

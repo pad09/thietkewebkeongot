@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
 
-// NHỚ NHẬN PROP openLogin TỪ APP TRUYỀN XUỐNG Ở ĐÂY NHA!
 export default function Header({ openLogin }) {
   return (
     <div>
-      {/* ===== HEADER TOP ===== */}
+      { }
       <header className="container-fluid frame-header">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-6 col-md-4">
-              📞 HOTLINE: 0912345678
+              📞 HOTLINE: 0123 456 789
             </div>
 
             <div
@@ -20,11 +19,11 @@ export default function Header({ openLogin }) {
             </div>
 
             <div className="col-6 col-md-4 text-end">
-              {/* NÚT ĐĂNG NHẬP CHUẨN XỊN */}
+              { }
               <button
                 type="button"
                 className="btn"
-                onClick={openLogin} // <-- Gọi thẳng công tắc của App.jsx ở đây!
+                onClick={openLogin}
                 style={{
                   background: "linear-gradient(to right,#ff8fab,#ffb3c6)",
                   color: "#fff",
@@ -44,7 +43,7 @@ export default function Header({ openLogin }) {
         </div>
       </header>
 
-      {/* ===== NAVBAR ===== */}
+
       <div className="container">
         <nav
           className="navbar navbar-expand-sm mt-3 px-3"
@@ -98,7 +97,7 @@ export default function Header({ openLogin }) {
                 </li>
               </ul>
 
-              {/* SEARCH */}
+
               <form className="d-flex">
                 <input
                   className="form-control me-2 rounded-pill border-info"
@@ -114,8 +113,7 @@ export default function Header({ openLogin }) {
                 </button>
               </form>
 
-              {/* CART */}
-              {/* CART */}
+
               <Link
                 to="/giohang"
                 className="btn ms-3 d-flex align-items-center"

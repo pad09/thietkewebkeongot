@@ -3,20 +3,20 @@ import { useEffect, useState } from "react";
 export default function GioHang() {
     const [cart, setCart] = useState([]);
 
-    // LOAD CART
+   
     useEffect(() => {
         const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
         setCart(storedCart);
     }, []);
 
-    // XÓA
+    
     const deleteProduct = (id) => {
         const newCart = cart.filter((item) => item.id !== id);
         setCart(newCart);
         localStorage.setItem("cart", JSON.stringify(newCart));
     };
 
-    // TĂNG
+    
     const increase = (id) => {
         const newCart = cart.map((item) =>
             item.id === id ? { ...item, quantity: item.quantity + 1 } : item
@@ -25,7 +25,7 @@ export default function GioHang() {
         localStorage.setItem("cart", JSON.stringify(newCart));
     };
 
-    // GIẢM
+    
     const decrease = (id) => {
         const newCart = cart
             .map((item) =>
@@ -36,22 +36,22 @@ export default function GioHang() {
         localStorage.setItem("cart", JSON.stringify(newCart));
     };
 
-    // TỔNG TIỀN
+    
     const total = cart.reduce((sum, item) => sum + item.gia * item.quantity, 0);
 
     return (
         <div className="container my-5">
             <div
                 style={{
-                    background: "#fff6f6", // Nền hồng siêu nhạt cực soft
-                    borderRadius: "30px",  // Bo tròn góc hộp lớn
+                    background: "#fff6f6", 
+                    borderRadius: "30px",  
                     padding: "30px",
                     boxShadow: "0 15px 35px rgba(255, 182, 193, 0.2)"
                 }}
             >
                 <h2
                     style={{
-                        color: "#ff758f", // Màu hồng dâu ngọt ngào
+                        color: "#ff758f", 
                         fontWeight: "800",
                         textAlign: "center",
                         marginBottom: "30px",
@@ -61,7 +61,7 @@ export default function GioHang() {
                     🍭 GIỎ HÀNG KẸO NGỌT
                 </h2>
 
-                {/* Bỏ viền mặc định của Bootstrap, dùng border-collapse riêng lẻ để bo góc tr/td */}
+                
                 <table 
                     className="table align-middle text-center" 
                     style={{ 
@@ -73,7 +73,7 @@ export default function GioHang() {
                     <thead>
                         <tr
                             style={{
-                                background: "#ffb7b2", // Màu hồng cam pastel cho tiêu đề
+                                background: "#ffb7b2", 
                                 color: "white"
                             }}
                         >
@@ -112,19 +112,19 @@ export default function GioHang() {
                                             width: "85px",
                                             height: "85px",
                                             objectFit: "cover",
-                                            borderRadius: "18px", // Bo tròn hình ảnh
-                                            border: "3px solid #ffcad4" // Viền hồng pastel nhẹ quanh ảnh
+                                            borderRadius: "18px", 
+                                            border: "3px solid #ffcad4" 
                                         }}
                                     />
                                 </td>
 
-                                {/* Màu Xanh Mint pastel cho Giá tiền */}
+                               
                                 <td style={{ border: "none", color: "#2ec4b6", fontWeight: "bold" }}>
                                     {item.gia.toLocaleString()}đ
                                 </td>
 
                                 <td style={{ border: "none" }}>
-                                    {/* Nút giảm màu Xanh Mint nhạt */}
+                                  
                                     <button
                                         className="btn btn-sm"
                                         style={{
@@ -145,7 +145,7 @@ export default function GioHang() {
                                         {item.quantity}
                                     </span>
 
-                                    {/* Nút tăng màu Hồng pastel nhạt */}
+                                   
                                     <button
                                         className="btn btn-sm"
                                         style={{
@@ -163,7 +163,7 @@ export default function GioHang() {
                                     </button>
                                 </td>
 
-                                {/* Thành tiền nổi bật với tone Hồng đậm sữa */}
+                              
                                 <td style={{ border: "none", color: "#ff4d6d", fontWeight: "bold" }}>
                                     {(item.gia * item.quantity).toLocaleString()}đ
                                 </td>
@@ -214,7 +214,7 @@ export default function GioHang() {
                             </td>
 
                             <td style={{ border: "none" }}>
-                                {/* Nút thanh toán chuyển sang màu Xanh Mint phối chữ trắng cực xinh */}
+                               
                                 <button
                                     className="btn text-white fw-bold"
                                     style={{
