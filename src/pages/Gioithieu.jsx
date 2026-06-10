@@ -169,7 +169,7 @@ export default function Gioithieu() {
 
                         <div className="review-info">
 
-                            <img src="/imges/tl1.webp" alt="" />
+                            <img src="/imges/tl (1).webp" alt="" />
 
                             <h5>
                                 Trần Hoàng Nam
